@@ -1,0 +1,339 @@
+.clear:after {
+    width: 100%;
+    height: 0;
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+  
+  .change_content .tabs_content .part .time_tabs li .span1, .change_content .tabs_content .part .time_tabs li .span2, .change_content .tabs_content .part .time_tabs li .span3, .change_content .tabs_content .part .time_tabs li .span4, .change_content .tabs_content .part .time_tabs li.current .span1, .change_content .tabs_content .part .time_tabs li.current .span2, .change_content .tabs_content .part .time_tabs li.current .span3, .change_content .tabs_content .part .time_tabs li.current .span4 {
+    width: 0.32rem;
+    height: 0.32rem;
+    display: inline-block;
+    margin-right: 0.05rem;
+  }
+  
+  #wrap {
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 1rem;
+  }
+  
+  .change_content {
+    padding: 0.3rem 0.45rem 0;
+    background: #fff;
+  }
+  
+  .change_content .tabs {
+    display: -webkit-flex;
+    display: flex;
+    -moz-border-radius: 0.06rem;
+    -webkit-border-radius: 0.06rem;
+    border-radius: 0.06rem;
+    border: 1px solid #1cc7b9;
+  }
+  
+  .change_content .tabs li {
+    flex: 1;
+    -webkit-flex: 1;
+    font-size: 0.28rem;
+    color: #1cc7b9;
+    border-right: 1px solid #1cc7b9;
+    text-align: center;
+    line-height: 0.74rem;
+    height: 0.72rem;
+  }
+  
+  .change_content .tabs li:last-child {
+    border-right: none;
+  }
+  
+  .change_content .tabs li.on {
+    background: #1cc7b9;
+    color: #fff;
+  }
+  
+  .change_content .tabs_content .part {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    -webkit-align-items: center;
+    padding-bottom: 0.55rem;
+  }
+  
+  .change_content .tabs_content .part .title {
+    margin: 0.5rem 0 0.4rem;
+    height: 0.4rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  
+  .change_content .tabs_content .part .title h1 {
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.34rem;
+    font-weight: normal;
+  }
+  
+  .change_content .tabs_content .part .pics {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    border: 0.06rem solid #ff5c6c;
+    width: 3.4rem;
+    height: 3.4rem;
+    background: url("https://m.wukonglicai.com/img/new_invest/wave.png") no-repeat bottom;
+    background-size: 100%;
+    position: relative;
+  }
+  
+  .change_content .tabs_content .part .pics .line1 {
+    margin-top: 0.6rem;
+    font-size: 0.24rem;
+    color: #a5a5a5;
+  }
+  
+  .change_content .tabs_content .part .pics .line2 {
+    font-size: 1rem;
+    color: #ff5c6c;
+  }
+  
+  .change_content .tabs_content .part .pics .line2 span {
+    font-size: 0.3rem;
+  }
+  .change_content .tabs_content .part .pics .line2 label {
+    font-size: 0.7rem;
+  }
+  
+  .change_content .tabs_content .part .title span {
+    -moz-border-radius: 0.06rem;
+    -webkit-border-radius: 0.06rem;
+    border-radius: 0.06rem;
+    align-self: flex-end;
+    -webkit-align-self: flex-end;
+    margin-left: 0.1rem;
+    height: 0.34rem;
+    line-height: 0.34rem;
+    padding: 0 0.08rem;
+    background: #ff5c6c;
+    color: #fff;
+    font-size: 0.22rem;
+  }
+  
+  .change_content .tabs_content .part .pics .check {
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    position: absolute;
+    left: 50%;
+    bottom: 0.25rem;
+    letter-spacing: 0.02rem;
+    color: #fff;
+    font-size: 0.26rem;
+  }
+  
+  .change_content .tabs_content .part .pics .check span {
+    margin-left: 0.05rem;
+    width: 0.09rem;
+    height: 0.14rem;
+    display: inline-block;
+    background: url("https://m.wukonglicai.com/img/new_invest/jump.png") no-repeat;
+    background-size: 100%;
+  }
+  
+  .change_content .tabs_content .part .couple {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  
+  .change_content .tabs_content .part .couple .spe {
+    margin-left: 0.15rem;
+  }
+  
+  .change_content .tabs_content .part .rights {
+    margin: 0.4rem 0 0.18rem;
+    font-size: 0.22rem;
+    color: #1cc7b9;
+    background: rgba(27, 199, 185, 0.06);
+    border: 1px solid #1cc7b9;
+    -moz-border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    border-radius: 0.2rem;
+    padding: 0 0.1rem;
+    height: 0.34rem;
+    line-height: 0.34rem;
+  }
+  
+  .change_content .tabs_content .part .word {
+    font-size: 0.28rem;
+    color: #666;
+    line-height: 0.4rem;
+  }
+  
+  .change_content .tabs_content .part .word b {
+    font-size: 0.28rem;
+    font-weight: normal;
+    color: #ff5c6c;
+  }
+  
+  .change_content .tabs_content .part .blank {
+    height: 0.95rem;
+  }
+  
+  .change_content .tabs_content .part .time_tabs {
+    width: 100%;
+    margin-top: 0.4rem;
+    height: 0.7rem;
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  .change_content .tabs_content .part .time_tabs li {
+    flex: 1;
+    -webkit-flex: 1;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-size: 0.3rem;
+    color: #a5a5a5;
+    position: relative;
+  }
+  
+  .change_content .tabs_content .part .time_tabs li .span1 {
+    background: url("https://m.wukonglicai.com/img/new_invest/degre_1.png") no-repeat;
+    background-size: 100%;
+  }
+  
+  .change_content .tabs_content .part .time_tabs li .span2 {
+    background: url("https://m.wukonglicai.com/img/new_invest/degre_2.png") no-repeat;
+    background-size: 100%;
+  }
+  
+  .change_content .tabs_content .part .time_tabs li .span3 {
+    background: url("https://m.wukonglicai.com/img/new_invest/degre_3.png") no-repeat;
+    background-size: 100%;
+  }
+  
+  .change_content .tabs_content .part .time_tabs li .span4 {
+    background: url("https://m.wukonglicai.com/img/new_invest/degre_4.png") no-repeat;
+    background-size: 100%;
+  }
+  
+  .change_content .tabs_content .part .time_tabs li.current {
+    color: #ff5c6c;
+  }
+  
+  .change_content .tabs_content .part .time_tabs li.current:before {
+    content: "";
+    position: absolute;
+    width: 1.28rem;
+    height: 0.05rem;
+    background: #ff5c6c;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  
+  .change_content .tabs_content .part .time_tabs li.current .span1 {
+    background: url("https://m.wukonglicai.com/img/new_invest/degre_11.png") no-repeat;
+    background-size: 100%;
+  }
+  
+  .change_content .tabs_content .part .time_tabs li.current .span2 {
+    background: url("https://m.wukonglicai.com/img/new_invest/degre_22.png") no-repeat;
+    background-size: 100%;
+  }
+  
+  .change_content .tabs_content .part .time_tabs li.current .span3 {
+    background: url("https://m.wukonglicai.com/img/new_invest/degre_33.png") no-repeat;
+    background-size: 100%;
+  }
+  
+  .change_content .tabs_content .part .time_tabs li.current .span4 {
+    background: url("https://m.wukonglicai.com/img/new_invest/degre_44.png") no-repeat;
+    background-size: 100%;
+  }
+  
+  .change_content .tabs_content .part3,
+  .change_content .tabs_content .part4 {
+    padding-bottom: 0;
+  }
+  
+  .buttons {
+    margin: 0.44rem 0.55rem 0.3rem;
+    background: #1cc7b9;
+    height: 0.98rem;
+    -moz-border-radius: 0.06rem;
+    -webkit-border-radius: 0.06rem;
+    border-radius: 0.06rem;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    color: #fff;
+  }
+  
+  .buttons .p1 {
+    font-size: 0.32rem;
+  }
+  
+  .buttons .p2 {
+    font-size: 0.20rem;
+    margin-top: 0.05rem;
+  }
+  
+  .buttons.buttons-none {
+    background: #ddd;
+  }
+  
+  .buttons.buttons-none P {
+    color: #a5a5a5;
+  }
+  
+  .introduction {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    -webkit-align-items: center;
+    color: #a5a5a5;
+    padding-bottom: 0.3rem;
+  }
+  
+  .introduction p {
+    font-size: 0.22rem;
+    line-height: 0.32rem;
+    text-align: center;
+  }
+  .change_content .tabs_content .part .pics .line2 span.extraprofit{
+    background:#ff5c6c;
+    border-radius:.22rem .22rem .22rem 0;
+    font-size:.26rem;
+    color:#ffffff;
+    padding: .05rem .08rem;
+    position: relative;
+    top: -.5rem;
+  }

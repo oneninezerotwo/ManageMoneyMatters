@@ -1,0 +1,22 @@
+
+html, body, :global(#root) {
+  height: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style: none
+}
+#box{
+  padding-bottom: 1rem;
+}
+#SkyPow{
+  background: white;
+  padding-bottom: 90px;
+}
+#Mine{
+  padding-bottom: 50px;
+}
+

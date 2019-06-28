@@ -1,0 +1,45 @@
+.swiper-container2 {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.n-pro-main .n-top {
+    height: 0.99rem;
+    border-bottom: #eee solid 1px;
+    padding: 0rem 0.44rem;
+    padding-top: 0.31rem;
+    box-sizing: border-box;
+  }
+.icon-wd {
+    -moz-border-radius: 0.06rem;
+    -webkit-border-radius: 0.06rem;
+    border-radius: 0.06rem;
+    align-self: flex-end;
+    -webkit-align-self: flex-end;
+    margin-left: 0.1rem;
+    height: 0.34rem;
+    line-height: 0.34rem;
+    padding: 0 0.08rem;
+    background: #ff5c6c;
+    color: #fff;
+    font-size: 0.22rem;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: 0.08rem;
+}
+.n-pro-main .n-top span {
+    float: left;
+    font-size: 0.32rem;
+    color: #333;
+  }
+.swiper-container2 .n-btn{
+    margin-top: -0.533333rem
+}
+.swiper-container2 .m-pro .n-page {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0.04rem !important;
+}
